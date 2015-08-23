@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Getting and Cleaning Data - Course Project
 
 Author Project: Anderson Hitoshi Uyekita
@@ -30,6 +29,3 @@ Good luck!
 2. Use de command `source()` to load the `run_analysis.r` script;
 2.1. Like this `source("run_analysis.R")`;
 3. The script will be run automatically.
-=======
-# GettingAndCleaningData
->>>>>>> 67c62fd6fd3ab123bef36942d2417da0d5aa458b
