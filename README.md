@@ -25,7 +25,7 @@ Good luck!
 
 # Step-by-step to reproduce the Project
 
-1. Copy the `run_analysis.r` script to the root (Documents Folfer);
+1. Copy the `run_analysis.r` script to the root (Documents Folder);
 2. Use de command `source()` to load the `run_analysis.r` script. Like this `source("run_analysis.R")`;
 3. The script will be run automatically;
-4. The tidy data could be visualized using the command `view()`. Like this `view(tidy_database)`.
+4. The tidy data could be visualized using the command `view()`. Like this `view(tidy_database)`. Also, the tidy data set will be saved at the root (Documents).
