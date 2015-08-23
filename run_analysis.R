@@ -5,6 +5,7 @@
 
 # All manipulation data will be in the root.
 setwd("~")
+library(plyr)
 
 ################################ 0. Gettind Data #####################################
 
