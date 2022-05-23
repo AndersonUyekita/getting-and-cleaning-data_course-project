@@ -1,16 +1,29 @@
+# `Course Project` [Getting and Cleaning Data]
+
+#### Tags
+
+-   Specialization: Data Science: Foundations using R Specialization
+-   Course: Getting and Cleaning Data
+    -   Instructor: Jeff Leek
+    -   URL: <https://www.coursera.org/learn/data-cleaning>
+    -   From: 20/05/2022
+    -   To: XX/05/2022
+
+------------------------------------------------------------------------
+
 # Codebook
 
 ## Description of functionality of `run_analysis.R` script
 
-1. Set the root to Documents;
+1. Create the "data" folder to host files downloaded from the internet;
 2. Load the Library plyr;
 3. Load the Library httr to access the internet;
 4. Check the file is already downloaded;
-5. The script will download the file hosted in `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`;
-6. Unzip the file downloaded as "DataSet.zip" into the folder "UCI HAR Dataset";
+5. Download data from `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`;
+6. Unzip the file downloaded as "DataSet.zip" into the folder "data";
 7. Initializing to import `x_train`, `x_test`, `y_train` and  `y_test`,  in separately tables;
 8. Merging all tables together to build the "raw database";
-9. Creatind a selection vector to subsetting the raw data;
+9. Creating a selection vector to subsetting the raw data;
 10. Subsetting the raw database with only `mean` and `std`;
 11. Importing the Activities;
 12. Changing ID to descriptive activity names;
