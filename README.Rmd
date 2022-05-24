@@ -51,6 +51,8 @@ The Script is divided into 5 parts:
 5. Calculating the mean: This is the data manipulation to calculate the mean of a grouped variable (Subject and Activity).
 6. Exporting Data: Final step is to export the dataset with grouped mean by Subject and Activity.
 
+Finally, you will need to look in the `export` folder to find the datasets. There you will see `df_tidy_before_step5.txt` and `df_tidy_mean.txt` files.
+
 * For any further info about the `run_analysis.r`, please you will find it in [CodeBook.md](./CodeBook.md)
 
 ***

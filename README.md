@@ -6,7 +6,7 @@
 -   Course: Getting and Cleaning Data
     -   Instructor: Jeffrey Leek
     -   URL: <https://www.coursera.org/learn/data-cleaning>
-    -   From: 23/05/2022
+    -   Date: 2022/05/23
 
 ------------------------------------------------------------------------
 
@@ -35,6 +35,10 @@ The Script is divided into 5 parts:
     mean of a grouped variable (Subject and Activity).
 6.  Exporting Data: Final step is to export the dataset with grouped
     mean by Subject and Activity.
+
+Finally, you will need to look in the `export` folder to find the
+datasets. There you will see `df_tidy_before_step5.txt` and
+`df_tidy_mean.txt` files.
 
 -   For any further info about the `run_analysis.r`, please you will
     find it in [CodeBook.md](./CodeBook.md)

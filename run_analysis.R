@@ -120,8 +120,17 @@ df_tidy <- x_mean_std %>%
 
 ########################## 4. Backup the Tidy Dataset ##########################
 
-# 4.1. Saving First Data
-write.table(df_tidy, "df_tidy_before_step5.txt")
+# 4.1. Checking if the subfolder already exists.
+if (!base::dir.exists("export")) {
+    
+    # Creating a subfolder to store the data.
+    base::dir.create(path = "./export")
+}
+
+
+
+# 4.2. Saving First Data
+write.table(df_tidy, "./export/df_tidy_before_step5.txt")
 
 ######################## 5. Calculating the mean  ##############################
 
@@ -140,4 +149,4 @@ df_tidy_mean <- df_tidy %>%
 ######################## 6. Exporting Data  ##############################
 
 # 6.1. Exporting the Dataset after Step 5.
-write.table(df_tidy_mean, "df_tidy_mean.txt")
+write.table(df_tidy_mean, "./export/df_tidy_mean.txt")
