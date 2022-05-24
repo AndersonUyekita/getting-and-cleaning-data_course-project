@@ -13,7 +13,6 @@
 
 # Loading packages
 library(tidyverse)
-library(httr)
 library(magrittr)
 
 ################################ 1. Getting Data ###############################
@@ -126,8 +125,6 @@ if (!base::dir.exists("export")) {
     # Creating a subfolder to store the data.
     base::dir.create(path = "./export")
 }
-
-
 
 # 4.2. Saving First Data
 write.table(df_tidy, "./export/df_tidy_before_step5.txt")

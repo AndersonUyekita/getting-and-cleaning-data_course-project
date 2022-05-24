@@ -6,18 +6,17 @@
 -   Course: Getting and Cleaning Data
     -   Instructor: Jeff Leek
     -   URL: <https://www.coursera.org/learn/data-cleaning>
-    -   From: 20/05/2022
-    -   To: XX/05/2022
+    -   From: 2022/05/23
 
 ------------------------------------------------------------------------
 
-# Codebook
+## Codebook
 
-## Description of functionality of `run_analysis.R` script
+### Description of functionality of `run_analysis.R` script
 
 1. Create the "data" folder to host files downloaded from the internet;
-2. Load the Library plyr;
-3. Load the Library httr to access the internet;
+2. Load the Library tidyverse;
+3. Load the Library magrittr to use the pipe (`%>%`);
 4. Check the file is already downloaded;
 5. Download data from `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`;
 6. Unzip the file downloaded as "DataSet.zip" into the folder "data";
@@ -27,9 +26,9 @@
 10. Subsetting the raw database with only `mean` and `std`;
 11. Importing the Activities;
 12. Changing ID to descriptive activity names;
-13. Saving the subset data called database_mean_std using `write.table()` as database_1st.txt;
+13. Saving the subset data called database_mean_std using `write.table()` as df_tidy_before_step5.txt (stored in the export folder);
 14. Sorting the database_mean_std With the average of each variable for each activity and each subject;
-15. Saving the subset data called tidy_database using `write.table()` as tidy_database.txt (saved at the root - Documents);
+15. Saving the subset data called tidy_database using `write.table()` as df_tidy_mean.txt (saved in the export folder);
 
 
 ## Content of  Output and Input
