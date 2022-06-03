@@ -1,16 +1,8 @@
 ---
-title: 'Getting and Cleaning Data'
-subtitle: 'Quiz 4'
-author: "Anderson H. Uyekita"
-date: '2022-05-23'
+title: '`Course Project` Getting and Cleaning Data'
+author: '`r if(knitr::is_html_output()) {"&#x1f468;&#x1F3FB;&#x200d;&#x1f4bb; Anderson H Uyekita"} else {NULL}`'
 output:
   github_document: default
-  html_document:
-    toc: true
-    toc_depth: 4
-    toc_float:
-      collapsed: false
-      smooth_scroll: true
 always_allow_html: true
 ---
 
@@ -24,17 +16,14 @@ library(httr)
 library(sqldf)
 library(DT)
 library(lubridate)
+library(rmarkdown)
 ```
 
-# `Course Project` [Getting and Cleaning Data]
-
-#### Tags
-
-* Specialization: Data Science: Foundations using R Specialization
-* Course: Getting and Cleaning Data
-    * Instructor: Jeffrey Leek
-    * URL: https://www.coursera.org/learn/data-cleaning
-    * Date: 2022/05/23
+`r if(!knitr::is_html_output()) {"* &#x1f468;&#x1F3FB;&#x200d;&#x1f4bb; Author: Anderson H Uyekita"}`
+* &#x1f4da; Specialization: [Data Science: Foundations using R Specialization](https://www.coursera.org/specializations/data-science-foundations-r){target='_blank' rel='noopener'}
+* &#x1f4d6; Course: [Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning){target='_blank' rel='noopener'}
+    * &#x1F9D1;&#x200d;&#x1F3EB; Instructor: Jeffrey Leek
+    * &#x1f4c5; Date: 2022/05/23
 
 ***
 

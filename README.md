@@ -1,12 +1,16 @@
-# `Course Project` [Getting and Cleaning Data]
+`Course Project` Getting and Cleaning Data
+================
 
-#### Tags
-
--   Specialization: Data Science: Foundations using R Specialization
--   Course: Getting and Cleaning Data
-    -   Instructor: Jeffrey Leek
-    -   URL: <https://www.coursera.org/learn/data-cleaning>
-    -   Date: 2022/05/23
+-   👨🏻‍💻 Author: Anderson H Uyekita
+-   📚 Specialization: <a
+    href="https://www.coursera.org/specializations/data-science-foundations-r"
+    target="_blank" rel="noopener">Data Science: Foundations using R
+    Specialization</a>
+-   📖 Course:
+    <a href="https://www.coursera.org/learn/data-cleaning" target="_blank"
+    rel="noopener">Getting and Cleaning Data</a>
+    -   🧑‍🏫 Instructor: Jeffrey Leek
+    -   📅 Date: 2022/05/23
 
 ------------------------------------------------------------------------
 
@@ -18,7 +22,7 @@ registry the data manipulation in the `CodeBook.md`. The project
 consists of loading 7 txt files and bringing them together into a single
 dataset to be used in further analysis (not covered by this course). In
 addition, neither all data on this dataset will be used, so it was
-necessary to filter its measurements' mean and standard deviation.
+necessary to filter its measurements’ mean and standard deviation.
 
 The Script is divided into 5 parts:
 

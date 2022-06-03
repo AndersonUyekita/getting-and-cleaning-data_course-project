@@ -1,12 +1,16 @@
-# `Course Project` [Getting and Cleaning Data]
+`Course Project` Getting and Cleaning Data
+================
 
-#### Tags
-
--   Specialization: Data Science: Foundations using R Specialization
--   Course: Getting and Cleaning Data
-    -   Instructor: Jeff Leek
-    -   URL: <https://www.coursera.org/learn/data-cleaning>
-    -   From: 2022/05/23
+-   👨🏻‍💻 Author: Anderson H Uyekita
+-   📚 Specialization: <a
+    href="https://www.coursera.org/specializations/data-science-foundations-r"
+    target="_blank" rel="noopener">Data Science: Foundations using R
+    Specialization</a>
+-   📖 Course:
+    <a href="https://www.coursera.org/learn/data-cleaning" target="_blank"
+    rel="noopener">Getting and Cleaning Data</a>
+    -   🧑‍🏫 Instructor: Jeffrey Leek
+    -   📅 Date: 2022/05/23
 
 ------------------------------------------------------------------------
 
@@ -654,9 +658,9 @@ Feature Level:
 * angle(Y,gravityMean)
 * angle(Z,gravityMean)
 
-### Description of database_1st.txt
+### Description of `df_tidy_before_step5.txt`
 
-The preliminary tidy data.
+The preliminary tidy dataset.
 
 Resume:
 * Rows: 10.299;
@@ -733,12 +737,9 @@ Resume:
 * fBodyBodyGyroJerkMag-mean()
 * fBodyBodyGyroJerkMag-std()
 
+### Description of `df_tidy_mean.txt`
 
-## Content of tidy_database.txt
-
-The Final tidy data
-
-### Description of tidy_database.txt
+The Final tidy dataset.
 
 Resume:
 * Rows: 180;
